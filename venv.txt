@@ -1,0 +1,8 @@
+On python 3.12
+
+python3 -m venv venv
+pip install https://download.pytorch.org/whl/pytorch_triton_rocm-3.5.1-cp312-cp312-linux_x86_64.whl
+pip install --no-cache-dir torch torchvision torchaudio --index-url https://download.pytorch.org/whl/rocm6.4
+pip install -r requirements.txt
+
+source venv/bin/activate
