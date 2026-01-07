@@ -211,3 +211,6 @@ __marimo__/
 ./models
 /data
 ./data
+
+#Audio project
+/audio_v2/*/
